@@ -1,14 +1,32 @@
 {
-    "schema": "http",
-    "host": "localhost",
+    "schema": "https",
+    "host": "go.atlantida.dev",
     "port": 80,
     "securePort": 443,
     "contextPath": "to",
     "tls": {
-        "certFile": "/opt/godirect/tls/fullchain.pem",
-        "keyFile": "/opt/godirect/tls/privkey.pem"
+        "certFile": "/opt/godirect/tls/live/go.atlantida.dev/fullchain.pem",
+        "keyFile": "/opt/godirect/tls/live/go.atlantida.dev/privkey.pem"
     },
     "rules": {
-        "me": "https://eric.vlaskin.org/"
+        "ambassador": "https://telegra.ph/Atlantida-Ambassador-Program-05-25",
+        "discord": "https://discord.gg/uctuV8xFSe",
+        "github": "https://github.com/atlantida-dev",
+        "itdoxy": "https://itdoxy.com/tags/atlantida-community/",
+        "sponsors": "https://telegra.ph/Sponsoring-Atlantida-12-28",
+        "sponsors-gold": "http://t.me/CryptoBot?start=SBDw_vDZmwdOVmYTc0",
+        "sponsors-silver": "http://t.me/CryptoBot?start=SBM59qFeup6E42MzVk",
+        "sponsors-bronze": "http://t.me/CryptoBot?start=SB7em798-m5Sk3OTlk",
+        "sponsors-basic": "http://t.me/CryptoBot?start=SBY8NZCwqN3Ss4NzE0",
+        "telegram": "https://t.me/x61746C616E746964615F656E67",
+        "telegram_eng": "https://t.me/x61746C616E746964615F656E67",
+        "telegram_rus": "https://t.me/x61746C616E746964615F727573",
+        "telegram_fin": "https://t.me/x61746C616E746964615F66696E",
+        "twitter": "https://twitter.com/atlantida_coin",
+        "ud": "https://ud.me/atlantida.coin",
+        "whitepaper": "https://github.com/atlantida-dev/atlantida-whitepaper",
+        "whitepaper_eng": "https://github.com/atlantida-dev/atlantida-whitepaper/blob/main/WHITEPAPER.md",
+        "whitepaper_fin": "https://github.com/atlantida-dev/atlantida-whitepaper/blob/main/translations/WHITEPAPER_FIN.md",
+        "whitepaper_rus": "https://github.com/atlantida-dev/atlantida-whitepaper/blob/main/translations/WHITEPAPER_RUS.md"
     }
 }

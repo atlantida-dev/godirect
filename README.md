@@ -1,7 +1,7 @@
 # godirect
 
 ```
-mkdir -p /opt/godirect/conf /opt/godirect/tls
+mkdir -p /opt/godirect/conf
 cp config.json /opt/godirect/conf/
 docker compose up -d
 ```
